@@ -1,82 +1,29 @@
 # English Premier League Team Performance Analysis (2022/2023)
 
-A data analysis and visualisation project examining team performance metrics across the 2022/2023 English Premier League season, built with **Power BI**.
+This project takes a close look at team performance across the 2022/2023 EPL season using Power BI. Rather than just looking at league standings, the focus here is on the underlying metrics — shots, penalties, free kicks, distance covered, and match distribution — to understand how teams actually performed on the pitch.
 
 ![EPL Dashboard](Screenshot%202024-11-14%20231627%20(2).png)
 
----
+## What I Found
 
-## Project Overview
+Manchester City dominated most of the attacking metrics — most penalties, most free kicks, and most shots on target. Liverpool had the highest total shot count but converting those into a higher shots-on-target number is where the gap lies. Newcastle United had the fewest shots overall, which tells a story about their attacking intent that season.
 
-This project analyses key performance indicators across all 20 EPL clubs for the 2022/2023 season, covering:
-
-- Total shots and shots on target
-- Penalty counts
-- Free kicks earned
-- Distance covered
-- Match distribution by month
-
----
-
-## Tools & Technologies
-
-| Tool | Purpose |
-|------|---------|
-| Power BI | Dashboard design and interactive visualisation |
-| DAX | Calculated measures and KPIs |
-
----
-
-## Key Findings
-
-| Metric | Highest | Lowest |
-|--------|---------|--------|
-| Total Shots | Liverpool | Newcastle United |
-| Shots on Target | Manchester City | Manchester United |
-| Penalties | Manchester City | West Ham |
-| Free Kicks | Manchester City | Aston Villa |
-| Distance Covered | Manchester United | Nottingham Forest |
-| Most Matches Played | April | January |
-
----
+Manchester United covered the most ground of any team, while Nottingham Forest covered the least — interesting considering how high-intensity modern pressing demands are. April was by far the busiest month for fixtures; January had the fewest games.
 
 ## Recommendations
 
-**Shots & Attacking Output**
-- Newcastle United should invest in offensive training to create more goal-scoring opportunities.
-- Liverpool can improve further by focusing on shot precision and conversion rates.
+Newcastle's low shot count is the clearest area to address — creating more attacking opportunities through structure and positioning would be a start, rather than just relying on individual moments.
 
-**Penalties**
-- Manchester City should maintain their aggressive attacking style to sustain penalty earnings.
-- West Ham should develop more incisive attacking tactics to win more penalty-area opportunities.
+Liverpool have the volume but need to sharpen the quality. More shots doesn't always mean more goals — improving the decision-making in the final third would make those numbers count.
 
-**Free Kicks**
-- Manchester City should continue leveraging set pieces effectively.
-- Aston Villa should focus on drawing fouls in advanced positions to earn more free kicks.
+West Ham and Aston Villa both underperformed in set-piece situations (penalties and free kicks respectively). Getting into more dangerous positions in the opposition's third is where that change begins.
 
-**Distance Covered**
-- Manchester United should maintain their high-intensity pressing system.
-- Nottingham Forest should prioritise fitness conditioning and tactical movement to cover more ground.
-
-**Shot Accuracy**
-- Manchester City should sustain their precision-based attack.
-- Manchester United should address shot accuracy through targeted finishing drills.
-
-**Match Scheduling**
-- During April's busy fixture run, teams should rotate squads and optimise fitness management.
-- In January, teams should focus on consistency and minimising player fatigue during the lighter schedule.
-
----
+Nottingham Forest's distance numbers suggest a tactical or fitness issue — either the system isn't demanding enough movement, or the squad wasn't conditioned for it. Either way, it's worth addressing in pre-season planning.
 
 ## How to View
 
-1. Download `EPL ANALYSIS.pbix`
-2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-3. Explore the interactive dashboard
+Download `EPL ANALYSIS.pbix` and open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) — it's free to download.
 
 ---
-
-## About
-
 **Season:** 2022/2023 English Premier League  
-**Author:** Paul Toluwase
+**Author:** [@Paul3995](https://github.com/Paul3995)
